@@ -1,6 +1,6 @@
 variable "project" {
   type    = string
-  default = "quantamvector"
+  default = "vinodkumarsargam77777"
 }
 
 variable "vpc_cidr" {
@@ -10,5 +10,5 @@ variable "vpc_cidr" {
 
 variable "azs" {
   type    = list(string)
-  default = ["ap-northeast-1a", "ap-northeast-1c", "ap-northeast-1d"]
+  default = ["ap-south-1a", "ap-south-1c", "ap-south-1d"]
 }

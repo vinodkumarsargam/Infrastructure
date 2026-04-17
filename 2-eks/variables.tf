@@ -1,6 +1,6 @@
 variable "project" {
   type    = string
-  default = "quantamvector"
+  default = "vinodkumarsargam77777"
 }
 
 variable "kubernetes_version" {
