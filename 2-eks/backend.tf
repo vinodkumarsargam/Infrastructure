@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket         = "vinodkumarsargam77777-infra-statefile-backup"
     key            = "vinodkumarsargam77777/2-eks/terraform.tfstate"
-    region         = "ap-northeast-1"
+    region         = "ap-south-1"
     dynamodb_table = "vinodkumarsargam77777-terraform-locks"
     encrypt        = true
   }
