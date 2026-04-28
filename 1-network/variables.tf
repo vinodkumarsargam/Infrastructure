@@ -1,6 +1,6 @@
 variable "project" {
   type    = string
-  default = "vinodkumarsargam77777"
+  default = "vinodkumarsargam77777-infra-statefile-backup"
 }
 
 variable "vpc_cidr" {
