@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "tf_state" {
-  bucket = "vinodkumarsargam77777"
+  bucket = "vinodkumarsargam77777-infra-statefile-backup"
 }
 
 resource "aws_s3_bucket_versioning" "tf_state" {
