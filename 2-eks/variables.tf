@@ -1,6 +1,6 @@
 variable "project" {
   type    = string
-  default = "vinodkumarsargam77777"
+  default = "vinpro"
 }
 
 variable "kubernetes_version" {
